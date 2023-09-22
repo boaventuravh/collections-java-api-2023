@@ -20,7 +20,14 @@ public class ListaTarefas {
     }
 
     public void removerTarefa(String descricao){
-        TaskList.removeIf(t -> t.getDescricao().equals(descricao));
+        List<Tarefa> listaRemove = new ArrayList<>();
+
+        for (Tarefa t: TaskList) {
+            if (t.getDescricao().equalsIgnoreCase(descricao))
+                listaRemove.add(t);
+        }
+        
+        TaskList.removeAll(listaRemove);
     }
 
     public int obterNumeroTotalTarefas(){

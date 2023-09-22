@@ -20,7 +20,12 @@ public class CarrinhoCompras {
     }
 
     public void removerItem(String nome){
-        listaItens.removeIf(item -> item.getNome().equals(nome));
+        List<Item> listaRemove = new ArrayList<>();
+        for(Item i : listaItens)
+            if(i.getNome().equalsIgnoreCase(nome))
+                listaRemove.add(i);
+
+        listaItens.removeAll(listaRemove);
     }
 
     public double calcularValorTotal(){
