@@ -26,7 +26,7 @@ public class ListaTarefas {
             if (t.getDescricao().equalsIgnoreCase(descricao))
                 listaRemove.add(t);
         }
-        
+
         TaskList.removeAll(listaRemove);
     }
 
@@ -41,6 +41,16 @@ public class ListaTarefas {
             descricoes.add(t.getDescricao());
 
         return descricoes;
+    }
+
+    public static void main(String[] args) {
+        ListaTarefas listaTarefas = new ListaTarefas();
+
+        listaTarefas.adicionarTarefa("Task 1");
+        listaTarefas.adicionarTarefa("Task 2");
+
+        System.out.println("Descrição tarefas: " + listaTarefas.obterDescricoesTarefas());
+
     }
 
 
