@@ -1,3 +1,5 @@
+package pessoas;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -32,11 +34,11 @@ public class OrdenacaoPessoas {
 
     public static void main(String[] args) {
         OrdenacaoPessoas ordenacaoPessoas = new OrdenacaoPessoas();
-        ordenacaoPessoas.adicionarPessoa("Pessoa 1", 12, 1.5);
-        ordenacaoPessoas.adicionarPessoa("Pessoa 2", 15, 1.7);
-        ordenacaoPessoas.adicionarPessoa("Pessoa 3", 7, 1.5);
-        ordenacaoPessoas.adicionarPessoa("Pessoa 4", 25, 1.85);
-        ordenacaoPessoas.adicionarPessoa("Pessoa 5", 10, 1.5);
+        ordenacaoPessoas.adicionarPessoa("pessoas.Pessoa 1", 12, 1.5);
+        ordenacaoPessoas.adicionarPessoa("pessoas.Pessoa 2", 15, 1.7);
+        ordenacaoPessoas.adicionarPessoa("pessoas.Pessoa 3", 7, 1.5);
+        ordenacaoPessoas.adicionarPessoa("pessoas.Pessoa 4", 25, 1.85);
+        ordenacaoPessoas.adicionarPessoa("pessoas.Pessoa 5", 10, 1.5);
 
         System.out.println("Lista ordenada por idade: " + ordenacaoPessoas.ordenarPorIdade().toString());
         System.out.println("Lista ordenada por altura: " + ordenacaoPessoas.ordenarPorAltura().toString());

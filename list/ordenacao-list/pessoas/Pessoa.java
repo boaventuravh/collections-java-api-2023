@@ -1,3 +1,5 @@
+package pessoas;
+
 public class Pessoa implements Comparable<Pessoa> {
     private String nome;
     private int idade;
@@ -11,7 +13,7 @@ public class Pessoa implements Comparable<Pessoa> {
 
     @Override
     public String toString() {
-        return "Pessoa{" +
+        return "pessoas.Pessoa{" +
                 "nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", altura=" + altura +

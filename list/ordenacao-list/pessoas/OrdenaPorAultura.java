@@ -1,3 +1,5 @@
+package pessoas;
+
 import java.util.Comparator;
 
 public class OrdenaPorAultura implements Comparator<Pessoa> {
