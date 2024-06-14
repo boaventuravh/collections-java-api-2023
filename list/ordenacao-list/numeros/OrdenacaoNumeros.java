@@ -41,7 +41,7 @@ public class OrdenacaoNumeros {
         ordenacaoNumeros.adicionarNumero(75);
         ordenacaoNumeros.adicionarNumero(43);
 
-
+        System.out.println("Ordem original: " + ordenacaoNumeros.listaInteiros);
         System.out.println("Ordem crescente: " + ordenacaoNumeros.ordenarAscendente());
         System.out.println("Decrescente: " + ordenacaoNumeros.ordenarDescendente());
     }
