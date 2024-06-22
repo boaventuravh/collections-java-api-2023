@@ -6,7 +6,7 @@ Toda a descrição se encontra [nesta pasta](https://github.com/cami-la/collecti
 
 Conceitos trabalhados:
 
-* [Operações Básicas](https://github.com/boaventuravh/collections-java-api-2023/tree/main/set/operacoes-basicas-set);
+* [Operações Básicas](https://github.com/boaventuravh/collections-java-api-2023/tree/main/set/src/OperacoesBasicas);
 * Pesquisa;
 * Ordenação.
 
