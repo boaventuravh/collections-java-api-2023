@@ -49,8 +49,10 @@ public class ConjuntoPalavrasUnicas {
 
         conjuntoPalavrasUnicas.exibirPalavrasUnicas();
 
-
         String palavraQualquer = "Abacaxi";
+        System.out.println("A palavra " + palavraQualquer + " está contida no conjunto: " + conjuntoPalavrasUnicas.verificarPalavra(palavraQualquer));
+
+        conjuntoPalavrasUnicas.removerPalavra(palavraQualquer);
         System.out.println("A palavra " + palavraQualquer + " está contida no conjunto: " + conjuntoPalavrasUnicas.verificarPalavra(palavraQualquer));
     }
 }
