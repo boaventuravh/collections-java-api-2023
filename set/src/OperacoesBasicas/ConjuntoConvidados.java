@@ -43,6 +43,7 @@ public class ConjuntoConvidados {
         conjuntoConvidados.adicionarConvidado("Maria", 2);
         conjuntoConvidados.adicionarConvidado("Alfredo", 3);
         conjuntoConvidados.adicionarConvidado("Joana", 4);
+        conjuntoConvidados.adicionarConvidado("Outra Joana", 4);
 
         conjuntoConvidados.exibirConvidados();
 
