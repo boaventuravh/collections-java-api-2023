@@ -32,7 +32,7 @@ public class CatalogoLivro {
         List<Livro> livrosIntervalo = new ArrayList<>();
 
         for (Livro li : acervoLivros)
-            if (li.getAnoPublicação() >= anoInicial && li.getAnoPublicação() <= anoFinal)
+            if (li.getAnoPublicacao() >= anoInicial && li.getAnoPublicacao() <= anoFinal)
                 livrosIntervalo.add(li);
 
         return livrosIntervalo;

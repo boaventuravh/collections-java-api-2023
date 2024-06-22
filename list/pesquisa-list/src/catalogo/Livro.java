@@ -3,12 +3,12 @@ package catalogo;
 public class Livro {
     private String titulo;
     private String autor;
-    private int anoPublicação;
+    private int anoPublicacao;
 
-    public Livro(String titulo, String autor, int anoPublicação){
+    public Livro(String titulo, String autor, int anoPublicacao){
         this.titulo = titulo;
         this.autor = autor;
-        this.anoPublicação = anoPublicação;
+        this.anoPublicacao = anoPublicacao;
     }
 
     public String getTitulo() {
@@ -19,7 +19,7 @@ public class Livro {
         return autor;
     }
 
-    public int getAnoPublicação() {
-        return anoPublicação;
+    public int getAnoPublicacao() {
+        return anoPublicacao;
     }
 }
