@@ -56,6 +56,6 @@ public class Produto implements Comparable<Produto> {
 
     @Override
     public int compareTo(Produto p) {
-        return nome.compareTo(p.getNome());
+        return nome.compareToIgnoreCase(p.getNome());
     }
 }
