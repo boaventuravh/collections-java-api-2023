@@ -21,16 +21,9 @@ public class CadastroProdutos {
 
     
 
-    public TreeSet<Produto> ordenarProdutosPorNome(){
-        TreeSet<Produto> produtosOrdenadorPorNome = new TreeSet<Produto>(
-                new Comparator<Produto>(){
-                    @Override
-                    public int compare(Produto o1, Produto o2) {
-                        return o1.getNome().compareTo(o2.getNome());
-                    }
-                });
-        produtosOrdenadorPorNome.addAll(produtosSet);
-        return produtosOrdenadorPorNome;
+    public Set<Produto> ordenarProdutosPorNome(){
+        Set<Produto> produtosOrdenadosNome = new TreeSet<Produto>(produtosSet);
+        return produtosOrdenadosNome;
     }
 
     public static void main(String[] args) {

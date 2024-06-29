@@ -2,7 +2,7 @@ package Ordenacao;
 
 import java.util.Objects;
 
-public class Produto {
+public class Produto implements Comparable<Produto> {
 
     private long cod;
     private String nome;
@@ -52,5 +52,10 @@ public class Produto {
 
     public int getQuantidade() {
         return quantidade;
+    }
+
+    @Override
+    public int compareTo(Produto p) {
+        return nome.compareTo(p.getNome());
     }
 }
