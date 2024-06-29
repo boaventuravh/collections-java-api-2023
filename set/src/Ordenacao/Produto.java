@@ -30,12 +30,12 @@ public class Produto {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Produto produto)) return false;
-        return getCod() == produto.getCod() && Objects.equals(getNome(), produto.getNome());
+        return getCod() == produto.getCod();
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getCod(), getNome());
+        return Objects.hash(getCod());
     }
 
     public long getCod() {
