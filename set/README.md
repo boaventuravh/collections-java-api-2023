@@ -8,7 +8,7 @@ Conceitos trabalhados:
 
 * [Operações Básicas](https://github.com/boaventuravh/collections-java-api-2023/tree/main/set/src/OperacoesBasicas);
 * [Pesquisa](https://github.com/boaventuravh/collections-java-api-2023/tree/main/set/src/Pesquisa);
-* Ordenação.
+* [Ordenação](https://github.com/boaventuravh/collections-java-api-2023/tree/main/set).
 
 ----------
 
