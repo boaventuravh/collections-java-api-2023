@@ -14,6 +14,16 @@ Conceitos trabalhados:
 
 # Cópia dos enunciados propostos pela Camila
 
+# Fixando os Conhecimentos
+
+Exercícios:
+
+1. Operações Básicas com List
+2. Pesquisa em List
+3. Ordenação nas List
+
+## Operações Básicas com List
+
 ### 1. Lista de Tarefas
 <p>Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atributo. Cada tarefa é representada por uma classe chamada "Tarefa" que possui um atributo de descrição. Implemente os seguintes métodos:
 
